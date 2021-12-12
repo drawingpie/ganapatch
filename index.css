@@ -199,8 +199,10 @@ img {
 }
 
 #footer span {
+  max-width: 300px;
   color: #fff;
   font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 @media all and (max-width: 1204px) {
