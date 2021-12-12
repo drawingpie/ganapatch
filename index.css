@@ -54,6 +54,10 @@ img {
   font-weight: 500;
 }
 
+.blind {
+  display: none;
+}
+
 #title {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
@@ -311,6 +315,10 @@ img {
   #footer span {
     max-width: 300px;
     font-size: 12px;
+  }
+
+  .blind {
+    display: block;
   }
 }
 
