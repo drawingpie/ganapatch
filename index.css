@@ -73,7 +73,7 @@ img {
   height: 49.22vw;
   width: 100vw;
   background-size: 100% 100%;
-  background-image: url("../img/main_bg.jpg");
+  background-image: url("/img/main_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -168,7 +168,7 @@ img {
 
 #section03 {
   text-align: center;
-  background-image: url("../img/section03_bg.jpg");
+  background-image: url("/img/section03_bg.jpg");
   background-repeat: no-repeat;
   padding-bottom: 70px;
   padding-top: 70px;
