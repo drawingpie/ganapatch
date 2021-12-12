@@ -170,6 +170,13 @@ img {
   margin-top: 23px;
 }
 
+#section02 .container .sub_text {
+  font-size: 16px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
 #section03 {
   text-align: center;
   background-image: url("img/section03_bg.jpg");
@@ -242,9 +249,6 @@ img {
 @media all and (max-width: 480px) {
   .container {
     max-width: 349px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    text-align: center;
   }
 
   img {
@@ -309,7 +313,15 @@ img {
   }
 
   #section02 .container .grid .card4 .how {
-    margin-bottom: 0x;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  #section02 .container .sub_text {
+    font-size: 14px;
+    text-align: left !important;
+    margin-top: 30px;
+    display: block;
   }
 
   #footer span {
