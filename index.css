@@ -335,6 +335,10 @@ img {
 }
 
 @media all and (max-width: 375px) {
+  p {
+    font-size: 17px;
+  }
+
   #main_section .container h1 a img {
     width: 10%;
     height: auto;
